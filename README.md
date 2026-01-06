@@ -25,6 +25,7 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 + 1.1.19 (2026-01-06):
   + Repo renamed and moved
   + Added selected menu-item validation in OnVisible of each screen to prevent orphaned or unauthorised navigation
+  + Simplified data-rendering example
   + Miscelleneous usability fixes and refinements
 + 1.1.18 (2025-04-25): Better built-in flexibility to dictate app-by-app default expanded/collapsed state of the left menu through UI variables
 + 1.1.17 (2025-03-08):
