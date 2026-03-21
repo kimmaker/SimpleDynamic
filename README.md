@@ -22,6 +22,12 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 
 ## Change log
 
++ 1.2 (2026-03-21):
+  + Use of user-defined functions (UDFs) for pagination, config validation, and data retrieval operations
+  + New ui-scoped variables for easier standardisation and control templating
+  + Text input implemented with modern controls refreshed in 2026
+  + Menu-item rendering now done in a named formula
+  + Numerous usability and consistency enhancements
 + 1.1.19 (2026-01-06):
   + Repo renamed and moved
   + Added selected menu-item validation in OnVisible of each screen to prevent orphaned or unauthorised navigation
