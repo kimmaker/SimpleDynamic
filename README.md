@@ -22,7 +22,7 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 
 ## Change log
 
-+ 1.2 (2026-03-29):
++ 1.2.1 (2026-03-29):
   + At start-up, a timer control gives a 2-second delay to ensure custom initialisation/authorisation routines defined in RoutingScreen.ObVisible to complete, which has been effective in many real-world use-cases. When editing the app inside the canvas app studio, press F5 to proceed to the designated "home" screen.
   + Usability and consistency fine-tuning
 + 1.2 (2026-03-21):
