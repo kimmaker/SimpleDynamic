@@ -22,8 +22,11 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 
 ## Change log
 
++ 1.2 (2026-03-29):
+  + At start-up, a timer control gives a 2-second delay to ensure custom initialisation/authorisation routines defined in RoutingScreen.ObVisible to complete, which has been effective in many real-world use-cases. When editing the app inside the canvas app studio, press F5 to proceed to the designated "home" screen.
+  + Usability and consistency fine-tuning
 + 1.2 (2026-03-21):
-  + Established patterns for extensive use of user-defined functions (UDFs) and named formulas to facilitate one-stop maintainability across potentially repeated logic such as pagination, config validation, side-menu rendering, and data retrieval operations
+  + Established patterns that demonstrate use of user-defined functions (UDFs) and named formulas to facilitate DRY (don't repeat yourself) across frequently executed logic such as pagination, config validation, side-menu rendering, and data retrieval operations
   + New ui-scoped variables for easier standardisation and control templating
   + Text input implemented with modern controls refreshed in 2026
   + Numerous usability and consistency enhancements
