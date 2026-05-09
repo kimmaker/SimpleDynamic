@@ -22,6 +22,10 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 
 ## Change log
 
++ 1.2.2 (2026-05-09):
+  + The modern text, text input, button modern controls have been updated to their latest iterations (April 2026).
+  + Variables for font sizes have been standardised.
+  + The greyed-out area outside a modal is now clickable. It invokes the active modal's secondary action button, which is normally the cancel function. This can work in conjunction with a Confirm() call, if implemented, to confirm the user's intent to exit the modal.
 + 1.2.1 (2026-03-29):
   + At start-up, a timer control gives a 2-second delay to ensure timely processing of custom initialisation/authorisation routines defined in RoutingScreen.OnVisible, which has proved effective in many real-world use-cases. When editing the app inside the canvas app studio, press F5 to proceed to the designated "home" screen.
   + Usability and consistency fine-tuning
