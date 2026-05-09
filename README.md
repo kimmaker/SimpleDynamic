@@ -23,7 +23,7 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 ## Change log
 
 + 1.2.2 (2026-05-09):
-  + The modern text, text input, button modern controls have been updated to their latest iterations (April 2026).
+  + The modern text, text input, and button modern controls have been updated to their latest iterations (April 2026). The app, however, continues to make certain classic controls available for easy templating. These include combo boxes, dropdowns, and radio buttons where OnChange events are registered fully and immediately.
   + Variables for font sizes have been standardised.
   + The greyed-out area outside a modal is now clickable. It invokes the active modal's secondary action button, which is normally the cancel function. This can work in conjunction with a Confirm() call, if implemented, to confirm the user's intent to exit the modal.
 + 1.2.1 (2026-03-29):
