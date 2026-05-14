@@ -22,6 +22,9 @@ Download *SimpleDynamicStarterApp.zip* and import it to a Power Platform environ
 
 ## Change log
 
++ 1.2.3 (2026-05-14):
+  + Measures to prevent horizontal sprawl of content on an ultrawide monitor; see the Width property of each data card in CanvasMainContent.
+  + Usability and consistency fine-tuning
 + 1.2.2 (2026-05-09):
   + The modern text, text input, and button controls have been updated to their latest iterations (April 2026). The app, however, continues to make certain classic controls available for easy templating. These include combo boxes, dropdowns, and radio buttons where OnChange events are registered fully and immediately.
   + Variables for font sizes have been standardised.
